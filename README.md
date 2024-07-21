@@ -26,7 +26,7 @@ The Q-Sparse architecture is based on the Transformer architecture with modifica
 3. **Squared ReLU (ReLU²GLU)**:
    - Implements ReLU²GLU for feed-forward layers: `ReLU²GLU(X) = X · W_up^T ⊙ ReLU²(X · W_gate^T)`
 
-## Experiment: ReLU vs Re2GLU
+## Experiment: ReLU vs ReLU2GLU
 # ReLU
 ![image](https://github.com/user-attachments/assets/6fb08565-6e50-4262-a755-84965d684682)
 
