@@ -22,7 +22,6 @@ The Q-Sparse architecture is based on the Transformer architecture with modifica
 
 2. **Quantized Top-K Sparsity**:
    - Quantizes the input to 8-bit representation before applying Top-K sparsity.
-   - Compatible with 1-bit LLMs for weight quantization.
 
 3. **Squared ReLU (ReLU²GLU)**:
    - Implements ReLU²GLU for feed-forward layers: `ReLU²GLU(X) = X · W_up^T ⊙ ReLU²(X · W_gate^T)`
