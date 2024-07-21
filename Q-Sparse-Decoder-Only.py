@@ -53,6 +53,8 @@ class QSparseDecoderLayer(nn.Module):
         self.self_attn = nn.MultiheadAttention(d_model, nhead, dropout=dropout, batch_first=True)
         self.feed_forward = nn.Sequential(
             nn.Linear(d_model, dim_feedforward),
+            #ReLU2GLU(dim_feedforward, dim_feedforward), Faster loss but at the cost of more memory usage. 
+            #In Paper they mention: using ReLU only hurts the perfomance but in my tests it only delays the loss by ~1000 steps while utilizing less memory overall.
             nn.ReLU(),
             nn.Linear(dim_feedforward, d_model)
         )
