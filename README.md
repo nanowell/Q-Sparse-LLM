@@ -1,6 +1,7 @@
 # Q-Sparse-LLM
 
 Q-Sparse-LLM is an implementation of a sparse transformer architecture designed for efficient and high-performance language modeling. This project introduces sparsity and quantization techniques to the traditional transformer architecture, aiming to reduce computational costs and memory footprint while maintaining model performance.
+![x3](https://github.com/user-attachments/assets/79bb0f9e-fb25-4eb0-8899-4e497f4e34b3)
 
 ## Features
 
