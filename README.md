@@ -8,6 +8,8 @@ Q-Sparse-LLM is an implementation of a sparse transformer architecture designed 
 - **Top-K Sparsity**: Implements a sparse activation mechanism that retains only the top K% of values in each layer.
 - **Quantized Top-K Sparsity**: Extends the sparsity mechanism with 8-bit quantization for further efficiency.
 - **ReLU²GLU Activation**: Uses a squared ReLU Gated Linear Unit for improved sparsity in feed-forward layers.
+
+## TODO:
 - **Compatibility with 1-bit LLMs**: Designed to be compatible with extremely quantized models like BitNet b1.58.
 
 ## Architecture Overview
