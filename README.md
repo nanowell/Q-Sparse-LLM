@@ -46,7 +46,7 @@ cd Q-Sparse-LLM
 Here's a basic example of how to use the Q-Sparse-LLM model:
 
 ```python
-from q_sparse_llm import QSparseModel
+from q_sparse import QSparseModel
 
 # Initialize the model
 model = QSparseModel(
